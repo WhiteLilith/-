@@ -12,10 +12,10 @@ class MainClass {
     a[2] = "  |    ====|==    \\_                                               ";
     a[3] = " =|        |       =|                                               ";
     a[4] = "  ==================/                                               ";
-    a[5] = "     ___     ___                                                    ";
-    a[6] = "    /   \\   /   \\                                                 ";
-    a[7] = "   |  =  | |  =  |                                                  ";
-    a[8] = "    \\___/   \\___/                                                 ";
+    a[5] = "     ___       ___                                                    ";
+    a[6] = "    /   \\     /   \\                                                 ";
+    a[7] = "   |  =  |   |  =  |                                                  ";
+    a[8] = "    \\___/     \\___/                                                 ";
     a[9] = "=   =====   =====   =====   =====   =====   =====   =====   =====   ";
     b[0] = " =====   =====   =====                                              ";
     b[1] = "===   =====   =====                                                 ";
@@ -44,9 +44,9 @@ class MainClass {
       Console.CursorVisible = false;
       Console.SetCursorPosition(0, 9);
       if (i%2 == 0)
-      Console.Write("   |  |  | |  |  |    ");
+      Console.Write("   |  |  |   |  |  |    ");
       else
-      Console.Write("   |  =  | |  =  |    ");
+      Console.Write("   |  =  |   |  =  |    ");
       Console.SetCursorPosition(0, 11);
       if (i != t*10)
       {
@@ -77,9 +77,9 @@ class MainClass {
         Console.CursorVisible = false;
         Console.SetCursorPosition(0, 9);
         if (i%2 == 0)
-        Console.Write("   |  |  | |  |  |    ");
+        Console.Write("   |  |  |   |  |  |    ");
         else
-        Console.Write("   |  =  | |  =  |    ");
+        Console.Write("   |  =  |   |  =  |    ");
         Console.SetCursorPosition(0, 11);
         if (i != t*10)
         {
